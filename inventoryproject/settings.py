@@ -138,3 +138,7 @@ STATIC_ROOT = (BASE_DIR/'assert/')
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGOUT_REDIRECT_URL = 'user-logout'
 LOGIN_REDIRECT_URL = 'dashboard-index'
+LOGIN_URL = 'user-login'
+
+MEDIA_ROOT = (BASE_DIR / 'media')
+MEDIA_URL = '/media/'
